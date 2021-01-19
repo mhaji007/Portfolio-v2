@@ -1,14 +1,13 @@
 import React from "react";
 import logo from "../logo.PNG";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faBars} from '@fortawesome/free-solid-svg-icons'
+import Header from "./Header"
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container-fluid ">
         <a className="navbar-brand " href="#">
-          <img className=" my-3 py-2 logo" src={logo} alt="logo reading MH" />
+          <img className=" my-3 py-2 brand" src={logo} alt="logo reading MH" />
         </a>
         <button
           className="navbar-toggler"
@@ -19,15 +18,15 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <FontAwesomeIcon icon={faBars} />
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto me-auto mb-2 mb-lg-0">
-            <li className="nav-item active">
+            {/* <li className="nav-item active">
               <a className="nav-link  " aria-current="page" href="#">
                 Home
               </a>
-            </li>
+            </li> */}
             <li className="nav-item ">
               <a className="nav-link " href="#">
                 Portfolio
