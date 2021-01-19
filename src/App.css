@@ -8,6 +8,7 @@
 body {
   font-family: "Roboto Slab" sans-serif;
   background-color: var(--main) !important;
+  color:var(--accent) !important
 }
 
 /* 292828 */
@@ -139,19 +140,24 @@ nav ul li {
   }
 }
 
-/* .header-wrapper {
+.header-wrapper {
   position:relative;
-  height:90vh;
-} */
+  height:85vh;
+}
 
-/* .main-info {
+.main-info {
 
   display:flex;
   flex-direction:column;
   justify-content: center;
   align-items: center;
 
-} */
+}
+
+
+@media(max-width: 768px) {
+
+}
 
 .logo {
   font-size: 1.1em;
@@ -244,4 +250,32 @@ nav ul li {
 }
 .logo .content .links a:hover {
   color: white;
+}
+
+
+
+/************** About ******************/
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-img {
+  width: 20rem;
+  border-radius:50%;
+  padding:.3rem;
+  border: 1px solid var(var(--accent))
+}
+
+.about-heading{
+  text-transform: uppercase;
+}
+
+@media(max-width: 468px) {
+  .profile-img {
+  width: 10rem;
+
+}
+
 }

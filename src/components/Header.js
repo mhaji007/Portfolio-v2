@@ -10,8 +10,8 @@ function Header() {
             <div className="vintage name">Mehdi Hajikhani</div>
             <div className="since">- Est. 2013 -</div>
             <div className="desc">Full Stack Web Developer</div>
-            <div className="skillz">
-              MongoDB&nbsp;+&nbsp;Express&nbsp;+&nbsp;React&nbsp;+&nbsp;Node
+            <div className="skillz ">
+              MongoDB + Express + React + Node
             </div>
             <div className="links">
               <a target="_blank" href="">
