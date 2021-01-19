@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500;600;700&display=swap");
+
+:root {
+  --main: #212121;
+  --accent: #bdbdbd;
+}
+
+body {
+  font-family: "Roboto Slab" sans-serif;
+}
+
+/************** Nabar ******************/
+.logo {
+  /* width: 9.25rem; */
+}
+
+.navbar {
+  background-color: var(--main);
+}
+
+/************** Nabar Links ******************/
+nav a.nav-link {
+  /* font-weight: 500; */
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--accent) !important;
+}
+
+.navbar-brand {
+  max-width:17.25rem;
+  padding:0 !important;
+  height:6rem !important;
+}
