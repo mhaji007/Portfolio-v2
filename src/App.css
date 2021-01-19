@@ -33,10 +33,19 @@ nav ul li {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   color: var(--accent) !important;
+  border-top: 0.1rem solid var(--main)
 }
 
 .navbar-brand {
   max-width:17.25rem;
   padding:0 !important;
   height:6rem !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav> li > a.active:focus {
+  border-top: 0.1rem solid var(--accent)
+}
+
+.navbar-nav > li >a:hover {
+    border-top: 0.1rem solid var(--accent)
 }
