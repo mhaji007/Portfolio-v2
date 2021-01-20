@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500;600;700&display=swap");
 
 :root {
-  --main:#212121;
+  --main: #212121;
   --accent: #bdbdbd;
 }
 
 body {
-  font-family: "Roboto Slab" sans-serif;
+  /* font-family:  'Roboto Slab', serif !important; */
   background-color: var(--main) !important;
-  color:var(--accent) !important
+  color: var(--accent) !important;
 }
 
 /* 292828 */
@@ -37,30 +37,25 @@ nav ul li {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   color: var(--accent) !important;
-  border-top: 0.1rem solid var(--main)
+  border-top: 0.1rem solid var(--main);
 }
 
 .navbar-brand {
-  max-width:17.25rem;
-  padding:0 !important;
-  height:4.8rem !important;
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 4.8rem !important;
 }
 
-.navbar-nav > li > a.active, .navbar-nav> li > a.active:focus {
-  border-top: 0.1rem solid var(--accent)
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+  border-top: 0.1rem solid var(--accent);
 }
 
-.navbar-nav > li >a:hover {
-    border-top: 0.1rem solid var(--accent)
+.navbar-nav > li > a:hover {
+  border-top: 0.1rem solid var(--accent);
 }
-
-
-
-
-
 
 /************** Header ******************/
-
 
 @-webkit-keyframes openTopLine {
   0% {
@@ -120,7 +115,8 @@ nav ul li {
   }
 }
 @-webkit-keyframes slideContent {
-  0%, 30% {
+  0%,
+  30% {
     transform: translateY(50%);
     opacity: 0;
   }
@@ -130,7 +126,8 @@ nav ul li {
   }
 }
 @keyframes slideContent {
-  0%, 30% {
+  0%,
+  30% {
     transform: translateY(50%);
     opacity: 0;
   }
@@ -141,29 +138,25 @@ nav ul li {
 }
 
 .header-wrapper {
-  position:relative;
-  height:85vh;
+  position: relative;
+  height: 85vh;
 }
 
 .main-info {
-
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
-
-@media(max-width: 768px) {
-
+@media (max-width: 768px) {
 }
 
 .logo {
   font-size: 1.1em;
   font-family: "Roboto Slab";
   text-align: center;
-  color:var(--accent);
+  color: var(--accent);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -178,19 +171,19 @@ nav ul li {
 }
 .logo .line.topLine {
   -webkit-animation: openTopLine 1.5s;
-          animation: openTopLine 1.5s;
+  animation: openTopLine 1.5s;
 }
 .logo .line.bottomLine {
   -webkit-animation: openBottomLine 1.5s;
-          animation: openBottomLine 1.5s;
+  animation: openBottomLine 1.5s;
 }
 .logo .content {
   -webkit-animation: slideContent 1s;
-          animation: slideContent 1s;
+  animation: slideContent 1s;
   -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
   -webkit-animation-delay: 1.25s;
-          animation-delay: 1.25s;
+  animation-delay: 1.25s;
 }
 .logo .content .vintage {
   font-weight: 400;
@@ -224,35 +217,33 @@ nav ul li {
   cursor: pointer;
   transition: color 0.15s;
   -webkit-animation: slideContent 1s;
-          animation: slideContent 1s;
+  animation: slideContent 1s;
   -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
 }
 .logo .content .links a:nth-of-type(1n) {
   -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  animation-delay: 2s;
 }
 .logo .content .links a:nth-of-type(2n) {
   -webkit-animation-delay: 2.25s;
-          animation-delay: 2.25s;
+  animation-delay: 2.25s;
 }
 .logo .content .links a:nth-of-type(3n) {
   -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
+  animation-delay: 2.5s;
 }
 .logo .content .links a:nth-of-type(4n) {
   -webkit-animation-delay: 2.75s;
-          animation-delay: 2.75s;
+  animation-delay: 2.75s;
 }
 .logo .content .links a:nth-of-type(5n) {
   -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  animation-delay: 3s;
 }
 .logo .content .links a:hover {
   color: white;
 }
-
-
 
 /************** About ******************/
 
@@ -263,19 +254,262 @@ nav ul li {
 }
 .profile-img {
   width: 20rem;
-  border-radius:50%;
-  padding:.3rem;
-  border: 1px solid var(var(--accent))
+  border-radius: 50%;
+  padding: 0.3rem;
+  /* border: 1px solid; */
 }
 
-.about-heading{
+.about-heading {
   text-transform: uppercase;
 }
 
-@media(max-width: 468px) {
+@media (max-width: 468px) {
   .profile-img {
-  width: 10rem;
-
+    width: 10rem;
+  }
 }
 
+/******* Portfolio (projects) ****************/
+
+/* .content {
+  display: flex;
+  flex-direction: column;
+} */
+
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5vw;
+  /* border: 1px solid red; */
+  transitions: all 250ms ease-in-out;
 }
+
+/* .project:nth-child(2) {
+  background: #f7f7f7;
+} */
+
+.project:hover .image-wrap {
+  transform: skew(-10deg) translate(-10px, -10px);
+  box-shadow: 10px 30px 60px 0 rgba(0, 0, 0, 0.25);
+}
+
+.project:hover .shadow {
+  transform: skew(-10deg) translate(5px, 5px);
+}
+
+.project:first-child p,
+.project:first-child h3,
+.project:nth-child(3) p,
+.project:nth-child(3) h3 {
+  /*  color: fff;*/
+}
+
+.project:nth-child(3) {
+  /*background: 2EA5D9;*/
+}
+
+.project:first-child .shadow {
+  border-color: var(--accent);
+  /* 3c3183; */
+}
+
+.project:nth-child(2) .shadow {
+  border-color: var(--accent);
+
+  /* 539aff; */
+}
+
+.project:nth-child(3) .shadow {
+  border-color: var(--accent);
+  /* 061a44; */
+}
+.project:nth-child(4) .shadow {
+  border-color: var(--accent);
+
+  /* 38b2ac; */
+}
+
+.project h3 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 900;
+}
+
+.project p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  opacity: 0.85;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+button {
+  padding: 15px 25px;
+  color: #fff;
+  background: #333;
+  border-radius: 4px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.image-container {
+  position: relative;
+  margin-right: 10vw;
+  cursor: pointer;
+}
+
+.image-wrap {
+  height: 300px;
+  width: 200px;
+  border-radius: 20px 5px;
+  box-shadow: 5px 20px 40px 0 rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  transform: skew(-10deg);
+  transition: all 250ms ease-in-out;
+}
+
+.image {
+  background-color: #fff;
+  background: url("./aei2.PNG");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  overflow: hidden;
+}
+
+.image.two {
+  background: url("./eShop.PNG");
+  background-size: 50%;
+}
+
+.image.three {
+  background: url("./CryptoConsole.PNG");
+  background-size: 50%;
+}
+.image.four {
+  background: url("./RepoFinder.PNG");
+  background-size: 50%;
+}
+
+.shadow {
+  position: absolute;
+  top: 25px;
+  right: -25px;
+  border-radius: 20px 5px;
+  width: 100%;
+  height: 100%;
+  border: 3px solid;
+  z-index: 1;
+  transform: skew(-10deg);
+  transition: all 250ms ease-in-out;
+}
+
+.project.right .image-container {
+  margin: 0 0 0 10vw;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.header p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.header {
+  margin-bottom: 10vh;
+  text-align: center;
+}
+
+@media (max-width: 910px) {
+  .project:hover .image-wrap {
+    transform: skew(0deg) translate(-10px, -10px);
+    box-shadow: 10px 30px 60px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .project:hover .shadow {
+    transform: skew(0deg) translate(5px, 5px);
+  }
+  .image-wrap {
+    height: 300px;
+    width: 200px;
+    border-radius: 20px 5px;
+    box-shadow: 5px 20px 40px 0 rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    transform: skew(0deg);
+    transition: all 250ms ease-in-out;
+  }
+  .shadow {
+    position: absolute;
+    top: 25px;
+    right: -25px;
+    border-radius: 20px 5px;
+    width: 100%;
+    height: 100%;
+    border: 3px solid;
+    z-index: 1;
+    transform: skew(0deg);
+    transition: all 250ms ease-in-out;
+  }
+}
+
+@media (max-width: 510px) {
+  .shadow {
+    display: none;
+  }
+}
+
+@media (max-width: 464px) {
+  .project:hover .image-wrap {
+    transform: skew(0deg);
+    box-shadow: 10px 30px 60px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .project:hover .shadow {
+    transform: skew(0deg);
+  }
+
+  .shadow {
+    display: none;
+    border-radius: 0;
+  }
+
+  .project .text-container h3,
+  .project .text-container p,
+  .project .text-container button {
+    display: none;
+  }
+
+  .image-wrap {
+    border-radius: 0;
+  }
+  .image-container {
+    margin: 0 !important;
+  }
+}
+
+
+/* * {
+   background: #000 !important;
+   color: #0f0 !important;
+   outline: solid #f00 1px !important;
+ } */
