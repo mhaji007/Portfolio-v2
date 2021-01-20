@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar"
 import Header from "./components/Header"
 import About from "./components/About"
 import Portfolio from "./components/Portfolio"
+import Experience from "./components/Experience"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Header/>
     <About/>
     <Portfolio/>
+    <Experience/>
     </>
   );
 }

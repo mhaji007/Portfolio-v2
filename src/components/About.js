@@ -11,7 +11,7 @@ function About() {
           </div>
         </div>
         <div className="col-lg-6 col-xm-12">
-          <h1 className="about-heading">about me</h1>
+          <h1 className="about-heading">about me<span className="about-heading-span">hdi</span></h1>
           <p>
             My name is Mehdi Hajikhani. I am a software developer from
             California. I graduated from Florida International University with a
