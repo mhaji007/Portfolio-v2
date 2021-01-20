@@ -7,6 +7,7 @@
   --primary-light-grey: #f4f4f4;
   --primary-dark-grey: #666666;
   --primary-grey: #ccd1d9;
+  --primary-black: #000000;
 }
 
 body {
@@ -612,6 +613,71 @@ button:hover {
     width: 100%;
   }
 }
+
+/*------------ Additional Projects ------------------*/
+
+.portfolio-wrapper {
+  padding:3rem 0;
+}
+
+.portfolio-image {
+  position: relative;
+  width:15rem;
+  border: 1px solid var(--accent);
+  padding: 0 0.5rem;
+}
+
+
+.portfolio-image::after {
+position: absolute;
+content: "";
+top:0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+
+.portfolio-image-box{
+  position: relative;
+  margin: 1rem;
+}
+
+/*------------ Overflow box ------------------*/
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width:15rem;
+  height:8rem;
+  top: 0;
+
+  border: 1px solid var(--primary-dark-grey);
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow{
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-icon {
+  position: absolute;
+  /* opacity: 0; */
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  font-size: 1.5rem;
+}
+
+.portfolio-image-box:hover .portfolio-icon {
+  opacity:70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+
+/*------------ Search icon (magnifier) ------------------*/
+
 
 /* * {
    background: #000 !important;
