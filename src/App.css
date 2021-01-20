@@ -676,7 +676,60 @@ bottom: 0;
 
 
 
+
+
+
 /*------------ Search icon (magnifier) ------------------*/
+
+
+
+
+/*------------ Popup box ------------------*/
+.portfolio-image-popupbox {
+  width:45rem;
+  padding:0 0.5rem;
+}
+
+.hyper-link {
+  cursor:pointer;
+
+}
+
+.portfolio-content-popupbox {
+  color: var(--primary-black) !important
+}
+
+
+/*------------ Media ------------------*/
+@media (max-width: 768px) {
+  .portfolio-image-popupbox {
+    width:100%;
+
+  }
+}
+@media (max-height: 570px) {
+
+  .popupbox-wrapper {
+    height:100%;
+  }
+
+  .portfolio-image-popupbox {
+    width:50%;
+
+  }
+}
+@media (max-height: 280px) {
+
+  .popupbox-wrapper {
+    height:90%;
+  }
+
+  .portfolio-image-popupbox {
+    width:30%;
+
+  }
+}
+
 
 
 /* * {
