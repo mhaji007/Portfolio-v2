@@ -10,9 +10,7 @@ function Header() {
             <div className="vintage name">Mehdi Hajikhani</div>
             <div className="since">- Est. 2013 -</div>
             <div className="desc">Full Stack Web Developer</div>
-            <div className="skillz ">
-              MongoDB + Express + React + Node
-            </div>
+            <div className="skillz ">MongoDB + Express + React + Node</div>
             <div className="links">
               <a target="_blank" href="">
                 <i class="fa fa-linkedin-square"></i>
@@ -23,10 +21,10 @@ function Header() {
               <a target="_blank" href="">
                 <i className="fa fa-file-pdf-o"></i>
               </a>
-              <a target="_blank" href="">
-                <i className="fa fa-codepen"></i>
+              <a target="_blank" href="https://github.com/mhaji007">
+                <i className="fa fa-github"></i>
               </a>
-              <a target="_blank" href="">
+              <a target="_blank" href="https://github.com/mhaji007">
                 <i className="fa fa-instagram"></i>
               </a>
             </div>
