@@ -45,31 +45,30 @@ function Footer() {
           </div>
 
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
-
             <div className="d-flex justify-content-center">
               <FacebookShareButton
-                url={"https://www.youtube.com/8020coding"}
+                url={"https://github.com/mhaji007"}
                 quote={"FullStack Developer"}
                 hashtag="#javascript"
               >
                 <FacebookIcon className="mx-3" size={36} />
               </FacebookShareButton>
               <TwitterShareButton
-                url={"https://www.youtube.com/8020coding"}
+                url={"https://github.com/mhaji007"}
                 quote={"FullStack Developer"}
                 hashtag="#javascript"
               >
-                <TwitterIcon className="mx-3" size={36}  />
+                <TwitterIcon className="mx-3" size={36} />
               </TwitterShareButton>
               <RedditShareButton
-                url={"https://www.youtube.com/8020coding"}
+                url={"https://github.com/mhaji007"}
                 quote={"FullStack Developer"}
                 hashtag="#javascript"
               >
                 <RedditIcon className="mx-3" size={36} />
               </RedditShareButton>
               <LinkedinShareButton
-                url={"https://www.youtube.com/8020coding"}
+                url={"https://github.com/mhaji007"}
                 quote={"FullStack Developer"}
                 hashtag="#javascript"
               >
@@ -78,7 +77,8 @@ function Footer() {
             </div>
             <p className="pt-3 text-center">
               Copyright&copy;
-              {new Date().getFullYear()}&nbsp;Mehdi Hajikhani | All Rights Reserved
+              {new Date().getFullYear()}&nbsp;Mehdi Hajikhani | All Rights
+              Reserved
             </p>
           </div>
         </div>

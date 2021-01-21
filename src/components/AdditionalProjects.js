@@ -194,7 +194,7 @@ function AdditionalProjects() {
   };
 
   return (
-    <div className="portfolio-wrapper">
+    <div id="additional projects" className="portfolio-wrapper">
       <div className="container">
         <h1 className="text-uppercase text-center py-5">Additional Projects</h1>
         <div className="image-box-wrapper row justify-content-center">

@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="header-wrapper">
+    <div id="home" className="header-wrapper">
       <div className="main-info">
         <div className="logo container">
           <div className="line topLine"></div>
@@ -18,12 +18,12 @@ function Header() {
               >
                 <i class="fa fa-linkedin-square"></i>
               </a>
-              <a target="_blank" href="">
+              {/* <a target="_blank" href="">
                 <i className="fa fa-file-word-o"></i>
               </a>
               <a target="_blank" href="">
                 <i className="fa fa-file-pdf-o"></i>
-              </a>
+              </a> */}
               <a target="_blank" href="https://github.com/mhaji007">
                 <i className="fa fa-github"></i>
               </a>
