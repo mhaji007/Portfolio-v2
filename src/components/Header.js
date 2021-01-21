@@ -12,7 +12,10 @@ function Header() {
             <div className="desc">Full Stack Web Developer</div>
             <div className="skillz ">MongoDB + Express + React + Node</div>
             <div className="links">
-              <a target="_blank" href="">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/mehdi-hajikhani/"
+              >
                 <i class="fa fa-linkedin-square"></i>
               </a>
               <a target="_blank" href="">
@@ -24,7 +27,7 @@ function Header() {
               <a target="_blank" href="https://github.com/mhaji007">
                 <i className="fa fa-github"></i>
               </a>
-              <a target="_blank" href="https://github.com/mhaji007">
+              <a target="_blank" href="https://www.instagram.com/m_hadjikhani/">
                 <i className="fa fa-instagram"></i>
               </a>
             </div>

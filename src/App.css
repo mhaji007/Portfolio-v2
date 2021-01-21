@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab:wght@300&display=swap");
 :root {
   --main: #212121;
+  --main-light:#2b2a2a;
   --accent: #bdbdbd;
   --primary-white: #ffffff;
   --primary-light-grey: #f4f4f4;
@@ -773,6 +774,10 @@ button:hover {
   width: 100%;
   background: none;
   border: 1px solid var(--primary-white);
+  transition: .2s ease-in-out;
+}
+.contact-btn:hover {
+background-color: var(--main-light) !important
 }
 
 .line {
@@ -826,9 +831,9 @@ textarea.form-control {
 
 /************************ Footer ********************************/
 .footer {
-  /* background: var(--primary-black); */
-  /* color: var(--primary-dark-grey); */
+ font-family: "Poppins", sans-serif !important;
   padding: 3rem;
+
 }
 
 .footer a {

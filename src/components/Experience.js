@@ -12,12 +12,12 @@ function Experience() {
           <div className="timeline-content">
             <h3>2010-2013</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perferendis velit explicabo, rerum quia voluptates nobis ea
-              repudiandae impedit eum nostrum architecto voluptatibus ducimus
-              laudantium blanditiis! Impedit itaque sint ipsum inventore
-              dignissimos hic ipsam consectetur ut illo soluta. Pariatur,
-              possimus dicta.
+              Studied Chemical Engineering at Azad University
+              <br />
+              Assisted in curriculum design and development for TOEFL courses at
+              Tehran Institute of Technology (TIT)
+              <br/>
+              Freelanced as a product and web designer
             </p>
           </div>
         </div>
@@ -27,12 +27,16 @@ function Experience() {
           <div className="timeline-content">
             <h3>2014-2019</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perferendis velit explicabo, rerum quia voluptates nobis ea
-              repudiandae impedit eum nostrum architecto voluptatibus ducimus
-              laudantium blanditiis! Impedit itaque sint ipsum inventore
-              dignissimos hic ipsam consectetur ut illo soluta. Pariatur,
-              possimus dicta.
+              Studied Computer Science at Florida International University
+              <br />
+              Participated in FIU startup
+              <br />
+              Received the National Science Foundation (NSF) Research Experience
+              Undergraduate (REU) Fellowship
+               <br/>
+              Worked as a software developer in an start-up called SmartsAid
+              <br />
+              Interned as an automation engineer
             </p>
           </div>
         </div>
@@ -42,12 +46,12 @@ function Experience() {
           <div className="timeline-content">
             <h3>2019-Present</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perferendis velit explicabo, rerum quia voluptates nobis ea
-              repudiandae impedit eum nostrum architecto voluptatibus ducimus
-              laudantium blanditiis! Impedit itaque sint ipsum inventore
-              dignissimos hic ipsam consectetur ut illo soluta. Pariatur,
-              possimus dicta.
+              Interning at aEi.ai where I developed company's website using HTML, CSS, JS
+              and JQuery
+              <br/>
+               Currently porting the website to ReactJS, Next.js
+               <br/>
+               Working towards my MS degree in Computer Engineering
             </p>
           </div>
         </div>
