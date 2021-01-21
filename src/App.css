@@ -257,7 +257,7 @@ nav ul li {
   animation-delay: 3s;
 }
 .logo .content .links a:hover {
-  color: white;
+  color: var(--primary-white);
 }
 
 /************** About ******************/
@@ -532,6 +532,7 @@ button:hover {
 
 .experience {
   padding: 0.7rem;
+   font-family: "Poppins", sans-serif !important;
 }
 
 .experience-wrapper {
@@ -620,6 +621,7 @@ button:hover {
 
 .portfolio-wrapper {
   padding: 3rem 0;
+   font-family: "Poppins", sans-serif !important;
 }
 
 .portfolio-image {
@@ -720,6 +722,7 @@ button:hover {
 .contacts {
   /* background: var(--primary-dark); */
   padding: 3rem 0;
+   font-family: "Poppins", sans-serif !important;
 }
 
 .contacts h1 {
@@ -819,6 +822,28 @@ textarea.form-control {
   .contacts p {
     padding: 0 0.4rem;
   }
+}
+
+/************************ Footer ********************************/
+.footer {
+  /* background: var(--primary-black); */
+  /* color: var(--primary-dark-grey); */
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-white);
+  cursor:pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
 }
 
 /* * {
