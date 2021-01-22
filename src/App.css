@@ -158,15 +158,14 @@ nav ul li {
   height: 85vh;
 }
 
-.main-info {
+/* .main-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
-@media (max-width: 768px) {
-}
+
 
 .logo {
   font-size: 1.1em;
@@ -259,6 +258,35 @@ nav ul li {
 }
 .logo .content .links a:hover {
   color: var(--primary-white);
+}
+
+/************** Media header ******************/
+
+@media (max-width: 520px) {
+
+
+.logo .line {
+  height: 1px;
+  background: var(--accent);
+  display: inline-block;
+  max-width: 19em
+}
+}
+@media (max-width: 377px) {
+.logo .line {
+  height: 1px;
+  background: var(--accent);
+  display: inline-block;
+  width: 18em !important
+}
+}
+@media (max-width: 322px) {
+.logo .line {
+  height: 1px;
+  background: var(--accent);
+  display: inline-block;
+  width: 16em !important
+}
 }
 
 /************** About ******************/
