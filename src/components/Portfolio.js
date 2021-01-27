@@ -71,6 +71,7 @@ function Portfolio() {
               </a>
             </div>
           </Fade>
+
           <Fade left>
             <div className="project">
               <a
@@ -123,6 +124,39 @@ function Portfolio() {
                   <div className="shadow"></div>
                 </div>
               </a>
+            </div>
+          </Fade>
+
+          <Fade left>
+            <div className="project">
+              <a
+                href="http://ec2-18-217-171-132.us-east-2.compute.amazonaws.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="image-container">
+                  <div className="image-wrap">
+                    <div className="image five"></div>
+                  </div>
+                  <div className="shadow"></div>
+                </div>
+              </a>
+              <div className="text-container">
+                <h3>Rate the Web</h3>
+                <p>
+                  MERN Stack, Next JS, AWS SES, AWS S2
+                  {/* Implemented the website UI using HTML, JavaScript, and JQuery.<br/>
+              Currently migrating the website UI to React.js/Next.js */}
+                </p>
+
+                <a
+                  href="http://ec2-18-217-171-132.us-east-2.compute.amazonaws.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button>Live Demo</button>
+                </a>
+              </div>
             </div>
           </Fade>
         </div>

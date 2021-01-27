@@ -381,6 +381,11 @@ nav ul li {
 
   /* 38b2ac; */
 }
+.project:nth-child(5) .shadow {
+  border-color: var(--accent);
+
+ 
+}
 
 .project h3 {
   font-size: 2rem;
@@ -454,6 +459,15 @@ button:hover {
 .image.four {
   background: url("./RepoFinder.PNG");
   background-size: 50%;
+}
+.image.five {
+  background: url("./ratetheweb.PNG");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  overflow: hidden;
 }
 
 .shadow {

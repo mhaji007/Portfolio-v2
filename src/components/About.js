@@ -11,12 +11,14 @@ function About() {
           </div>
         </div>
         <div className="col-lg-6 col-xm-12">
-          <h1 className="about-heading">about me<span className="about-heading-span">hdi</span></h1>
+          <h1 className="about-heading">
+            about me<span className="about-heading-span">hdi</span>
+          </h1>
           <p>
             My name is Mehdi Hajikhani. I am a software developer from
-            California. I graduated from Florida International University with a
-            Bachelor's degree in Computer Science and hold another bachelor's in
-            Petroleum Engineering. As of Spring 2021 I am working towards a
+            California. I graduated from Florida International University with
+            aBachelor's degree in Computer Science and hold another bachelor's
+            in Petroleum Engineering. As of Spring 2021 I am working towards a
             Master' in Computer Engineering. I have experience programming in
             different languages such as C, Java, PHP, and of course JavaScript.
             I am also experienced in designing and creating websites and mobile
