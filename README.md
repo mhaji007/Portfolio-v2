@@ -1,3 +1,4 @@
 My Latest portfolio built using React and Bootstrap
 
-![reactport](https://user-images.githubusercontent.com/22078200/105570216-bc502f00-5d15-11eb-8be9-2826ecbfbc67.PNG)
+## Demo
+![portfolio-demo](https://user-images.githubusercontent.com/22078200/106373044-c391c100-6343-11eb-8941-e45945128340.gif)
