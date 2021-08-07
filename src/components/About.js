@@ -15,17 +15,15 @@ function About() {
             about me<span className="about-heading-span">hdi</span>
           </h1>
           <p>
-            My name is Mehdi Hajikhani. I am a software developer from
-            California. I graduated from Florida International University with
-            aBachelor's degree in Computer Science and hold another bachelor's
-            in Petroleum Engineering. As of Spring 2021 I am working towards a
-            Master' in Computer Engineering. I have experience programming in
-            different languages such as C, Java, PHP, and of course JavaScript.
-            I am also experienced in designing and creating websites and mobile
-            applications using React.js and React Native. More recently I have
-            been focused on developing serverside web applications using
-            Next.js. In my free time, I enjoy not having to write trivia about
-            myself.
+            My name is Mehdi Hajikhani. I am a software engineer from
+            California. I received my Bachelor's in Computer Science from
+            Florida International University (FIU). As of Spring 2021 I am
+            working towards a Master's in Computer Engineering. I have
+            experience programming in different languages such as C, Java, PHP,
+            and Javascript. But my main focus for the last 3 years has been on
+            developing for the web using React.js and Next.js on the frontend
+            and Node.js, Express.js and MongoDB on the backend. In my free time,
+            I enjoy not having to write trivia about myself.
           </p>
         </div>
       </div>

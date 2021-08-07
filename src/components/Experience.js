@@ -16,7 +16,7 @@ function Experience() {
               <br />
               Assisted in curriculum design and development for TOEFL courses at
               Tehran Institute of Technology (TIT)
-              <br/>
+              <br />
               Freelanced as a product and web designer
             </p>
           </div>
@@ -33,7 +33,7 @@ function Experience() {
               <br />
               Received the National Science Foundation (NSF) Research Experience
               Undergraduate (REU) Fellowship
-               <br/>
+              <br />
               Worked as a software developer in an start-up called SmartsAid
               <br />
               Interned as an automation engineer
@@ -44,14 +44,24 @@ function Experience() {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2019-Present</h3>
+            <h3>2019-2020</h3>
             <p>
-              Interning at aEi.ai where I developed company's website using HTML, CSS, JS
-              and JQuery
-              <br/>
-               Currently porting the website to ReactJS, Next.js
-               <br/>
-               Working towards my MS degree in Computer Engineering
+              Software engineer at aEi.ai where I developed company's website
+              using HTML, CSS, JS and JQuery
+              <br />
+              Ported the UI to ReactJS, Next.js
+            </p>
+          </div>
+        </div>
+        <div className="timeline-block timeline-block-left">
+          <div className="marker"></div>
+          <div className="timeline-content">
+            <h3>2021-Present</h3>
+            <p>
+              Software engineer at Alocity responsible for developing client and
+              admin dashboards for Gen 2.0 Alocity devices
+              <br />
+              Working towards my MS degree in Computer Engineering
             </p>
           </div>
         </div>
